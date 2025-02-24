@@ -1,0 +1,35 @@
+// This is a configuration file for the 2-B-C-3 network
+
+// Defines the configuration of the network and test cases
+Number of layers = 3
+Number of input activations = 2
+Number of activations in first hidden layer = 5
+Number of activations in second hidden layer = 5
+Number of output activations = 3
+Number of test cases = 4
+
+// Booleans to determine how network is trained/weighted (1 is true, 0 is false)
+Whether or not network is training = 1
+Whether or not weights are randomized = 1
+Whether or not weights are loaded = 0
+Whether or not weights are saved = 1
+
+// Defines bounds for the values of randomized weights
+Minimum for randomized weights = -1.5
+Maximum for randomized weights = 1.5
+
+// Defines values used in training
+Maximum number of iterations = 100000
+Minimum threshold for error = 0.0002
+Lambda value (learning factor) = 0.3
+How many iterations before a keep alive message is printed out = 1000
+
+// Defines file names for loading/saving weights and storing test case activations
+Weights file name: networkWeights.txt
+Test case activation values file name: testingData.txt
+
+// Test case expected outputs
+0 0 0
+0 1 1
+0 1 1
+1 1 0

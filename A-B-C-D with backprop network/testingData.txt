@@ -1,0 +1,7 @@
+// Stores testing data activation values for the A-B-C-D network
+
+// Test input cases
+0 0
+0 1
+1 0
+1 1
